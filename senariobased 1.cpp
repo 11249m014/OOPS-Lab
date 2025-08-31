@@ -17,3 +17,16 @@ public:
       cout<<"RAM:"<<ram<<"GB"<<endl;
     }
 };
+
+int main(){
+Laptop 11,12;
+11.brand="Dell";
+11.processor="Intel i5";
+11.ram=8;
+12.brand="HP";
+12.processor="AMD Ryzen 5";
+12.ram=16;
+11.display();
+12.display();
+return 0;
+}
