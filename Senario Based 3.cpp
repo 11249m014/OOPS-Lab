@@ -7,9 +7,9 @@ public:
  string name;
  float balance;
  void display() {
- cout << "Account No: " << accNo
- << ", Name: " << name
- << ", Balance: " << balance << endl;
+ cout << "Account No: " << accNo << endl;
+ cout << ", Name: " << name << endl;
+ cout << ", Balance: " << balance << endl;
  }
 };
 int main() {
