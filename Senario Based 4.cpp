@@ -7,9 +7,9 @@ public:
  string company;
  float price;
  void display() {
- cout << "Company: " << company
- << ", Model: " << model
- << ", Price: Rs." << price << endl;
+ cout << "Company: " << company << endl;
+ cout << ", Model: " << model << endl;
+ cout << ", Price: Rs." << price << endl;
  }
 };
 int main() {
